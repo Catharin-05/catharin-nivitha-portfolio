@@ -171,17 +171,13 @@ h1{font-size:clamp(40px,7.5vw,74px);letter-spacing:-.035em}
 .plink{font-family:var(--f-mono);font-size:14px;word-break:break-word}
 
 /* blog */
-.posts{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));align-items:start}
-.post{padding:0}
-.post:hover,.post[open]{border-color:var(--accent)}
-.post summary,a.post{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:8px;padding:22px;text-decoration:none;color:inherit}
-.post summary::-webkit-details-marker{display:none}
-.post h3{font-size:21px}
-.post .sum{color:var(--muted);font-size:16px}
-.post .more{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
-.post[open] .more::after{content:" (close)"}
-.post-body{padding:16px 22px 22px;border-top:1px solid var(--line);color:var(--muted)}
-a.post{padding:22px}
+.posts{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))}
+a.post{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--ink)}
+a.post:hover{border-color:var(--accent)}
+a.post h3{font-size:21px}
+a.post .sum{color:var(--muted);font-size:16px}
+a.post .more{font-family:var(--f-mono);font-size:13px;color:var(--accent);margin-top:auto;padding-top:6px}
+.more-link{margin-top:20px}
 
 /* education */
 .edu{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))}
@@ -412,28 +408,29 @@ a.post{padding:22px}
   <div class="sec-head">
     <p class="eyebrow">Blog</p>
     <h2>Writing</h2>
-    <p>These posts are placeholders for now.</p>
+    <p>Articles I've written on Medium about computer vision and machine learning.</p>
   </div>
   <div class="grid posts">
-    <a class="card post" href="blog/post-1.html">
-      <span class="dates">Date</span>
-      <h3>Post title goes here</h3>
-      <span class="sum">A one-line summary of the post goes here.</span>
-      <span class="more">Read post</span>
+    <a class="card post" href="https://medium.com/@nivithacatharin/the-new-generation-of-open-source-parametric-human-models-2025-2026-76cdda4e612d">
+      <span class="dates">Jul 22, 2026</span>
+      <h3>The New Generation of Open-Source Parametric Human Models (2025–2026)</h3>
+      <span class="sum">A look at the new open-source alternatives to SMPL from Meta, NVIDIA and Google, and what each one is for.</span>
+      <span class="more">Read on Medium</span>
     </a>
-    <a class="card post" href="blog/post-1.html">
-      <span class="dates">Date</span>
-      <h3>Post title goes here</h3>
-      <span class="sum">A one-line summary of the post goes here.</span>
-      <span class="more">Read post</span>
+    <a class="card post" href="https://medium.com/@nivithacatharin/which-monocular-depth-model-should-you-actually-use-i-tested-to-find-out-2bc384b315bb">
+      <span class="dates">Jul 6, 2026</span>
+      <h3>Which Monocular Depth Model Should You Actually Use? I Tested to Find Out</h3>
+      <span class="sum">I compared six monocular depth models on the same hardware and data to see which one fits which need.</span>
+      <span class="more">Read on Medium</span>
     </a>
-    <a class="card post" href="blog/post-1.html">
-      <span class="dates">Date</span>
-      <h3>Post title goes here</h3>
-      <span class="sum">A one-line summary of the post goes here.</span>
-      <span class="more">Read post</span>
+    <a class="card post" href="https://medium.com/@nivithacatharin/how-batch-normalization-can-amplify-shortcut-features-in-retrieval-systems-1c5ff1b40591">
+      <span class="dates">Jun 15, 2026</span>
+      <h3>How Batch Normalization Can Amplify Shortcut Features in Retrieval Systems</h3>
+      <span class="sum">Why a humming-based audio retrieval model failed on new singers, and how the choice of normalization plays a part.</span>
+      <span class="more">Read on Medium</span>
     </a>
   </div>
+  <p class="more-link"><a href="https://medium.com/@nivithacatharin">More on Medium</a></p>
 </section>
 
 <section class="wrap" id="education">
@@ -511,6 +508,7 @@ a.post{padding:22px}
     <div class="links">
       <a class="btn" href="https://linkedin.com/in/catharin">LinkedIn</a>
       <a class="btn" href="https://github.com/Catharin-05">GitHub</a>
+      <a class="btn" href="https://medium.com/@nivithacatharin">Medium</a>
     </div>
   </div>
 </section>
