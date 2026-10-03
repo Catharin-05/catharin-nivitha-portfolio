@@ -168,6 +168,9 @@ h1{font-size:clamp(40px,7.5vw,74px);letter-spacing:-.035em}
 }
 .ph figcaption{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
 .ph .doodle{width:52px;height:52px}
+.shot{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg)}
+.shot img{display:block;width:100%;height:auto}
+.shot figcaption{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding:8px 12px;border-top:1px solid var(--line)}
 .plink{font-family:var(--f-mono);font-size:14px;word-break:break-word}
 
 /* blog */
@@ -371,9 +374,13 @@ a.post .more{font-family:var(--f-mono);font-size:13px;color:var(--accent);margin
         <p class="plink"><a href="https://github.com/Catharin-05/virtual-try-on">github.com/Catharin-05/virtual-try-on</a></p>
       </div>
       <div class="proj-side">
-        <figure class="ph">
-          <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect x="10" y="26" width="60" height="38" rx="6" class="fp"/><circle cx="40" cy="45" r="11" class="fy"/><path d="M26 26 L31 18 H49 L54 26"/></svg>
-          <figcaption>Demo clip goes here</figcaption>
+        <figure class="shot">
+          <img src="images\upload-screen.png" alt="Virtual Fitting Room upload screen with a field to drop a video and enter height" width="1400" height="669" loading="lazy">
+          <figcaption>Upload screen</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images\3d-viewer.png" alt="Virtual Fitting Room 3D viewer showing a reconstructed body mesh next to its measurements" width="1400" height="644" loading="lazy">
+          <figcaption>3D viewer with measurements</figcaption>
         </figure>
       </div>
     </article>
@@ -394,9 +401,9 @@ a.post .more{font-family:var(--f-mono);font-size:13px;color:var(--accent);margin
         <p>The agent uses tool calling and metadata caching to answer questions about what happened in the footage.</p>
       </div>
       <div class="proj-side">
-        <figure class="ph">
-          <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect x="10" y="26" width="60" height="38" rx="6" class="fp"/><circle cx="40" cy="45" r="11" class="fy"/><path d="M26 26 L31 18 H49 L54 26"/></svg>
-          <figcaption>Demo clip goes here</figcaption>
+        <figure class="shot">
+          <img src="images\Spatial Cortex UI and 1 more page - Person 4 - Microsoft_ Edge 18-04-2026 09_14_07.png" alt="Site Auditor interface with a construction video feed and an agent log answering a query about a truck" width="1400" height="672" loading="lazy">
+          <figcaption>Site Auditor interface</figcaption>
         </figure>
       </div>
     </article>
