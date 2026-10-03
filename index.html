@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Catharin Nivitha P | Computer Vision Engineer</title>
+<meta name="description" content="Catharin Nivitha P is a computer vision engineer in Bangalore, India, working on object detection, segmentation, 3D reconstruction and measurement from images and video.">
+<meta name="author" content="Catharin Nivitha P">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-SITE-URL/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Catharin Nivitha P | Computer Vision Engineer">
+<meta property="og:description" content="Catharin Nivitha P is a computer vision engineer in Bangalore, India, working on object detection, segmentation, 3D reconstruction and measurement from images and video.">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-SITE-URL/">
+<meta property="og:site_name" content="Catharin Nivitha P">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Catharin Nivitha P | Computer Vision Engineer">
+<meta name="twitter:description" content="Catharin Nivitha P is a computer vision engineer in Bangalore, India, working on object detection, segmentation, 3D reconstruction and measurement from images and video.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","url":"https://REPLACE-WITH-YOUR-SITE-URL/","name":"Catharin Nivitha P","alternateName":["Catharin Nivitha","Nivitha C"],"jobTitle":"Computer Vision Engineer","description":"Computer vision engineer in Bangalore, India, working on object detection, segmentation, 3D reconstruction and measurement from images and video.","address":{"@type":"PostalAddress","addressLocality":"Bangalore","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"CHRIST (Deemed to be University)"},"knowsAbout":["Computer vision","Object detection","Image segmentation","3D reconstruction","Pose estimation","Depth estimation","Camera calibration","OCR"],"sameAs":["https://www.linkedin.com/in/catharin","https://github.com/Catharin-05"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: a clean single-column portfolio. Quiet surfaces and one indigo accent,
+   with the doodled avatar and a faint star map as the only playful touches. */
+:root{
+  --bg:#F7F8FB;
+  --surface:#FFFFFF;
+  --ink:#12152B;
+  --muted:#586079;
+  --line:#DCE0EE;
+  --accent:#3B4BDB;
+  --accent-ink:#FFFFFF;
+  --accent-soft:#E8EBFC;
+  --yellow:#FFD84A;
+  --coral:#FF6F5E;
+  --teal:#2CB8A4;
+  --skin:#D8A47E;
+  --hair:#1C1636;
+  --sticker:#FFE9A8;
+  --on-coral:#1C1636;
+  --f-display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --f-body:'Instrument Sans','Segoe UI',system-ui,sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,'Courier New',monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0C0E1A;
+    --surface:#141729;
+    --ink:#ECEEFB;
+    --muted:#9DA3C6;
+    --line:#272B49;
+    --accent:#909CFF;
+    --accent-ink:#0C0E1A;
+    --accent-soft:#1E2244;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C0E1A;
+  --surface:#141729;
+  --ink:#ECEEFB;
+  --muted:#9DA3C6;
+  --line:#272B49;
+  --accent:#909CFF;
+  --accent-ink:#0C0E1A;
+  --accent-soft:#1E2244;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6}
+a{color:var(--accent);text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;margin:0;line-height:1.15;letter-spacing:-.02em;text-wrap:balance}
+p{margin:0}
+
+.wrap{max-width:1040px;margin-inline:auto;padding-inline:20px;padding-block:clamp(40px,6vw,72px)}
+.eyebrow{font-family:var(--f-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.sec-head{display:flex;flex-direction:column;gap:8px;margin-bottom:28px}
+.sec-head h2{font-size:clamp(28px,4vw,38px)}
+.sec-head p{max-width:60ch;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;min-width:0}
+.grid{display:grid;gap:18px}
+
+/* top bar and hero */
+.topbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 28px;padding-block:20px 0}
+.brand{font-family:var(--f-display);font-weight:700;font-size:19px;color:var(--ink);text-decoration:none}
+.topbar nav{display:flex;flex-wrap:wrap;gap:6px 22px}
+.topbar nav a{font-size:15px;color:var(--muted);text-decoration:none}
+.topbar nav a:hover{color:var(--ink)}
+.hero{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:40px;align-items:center;padding-block:clamp(34px,6vw,64px) clamp(40px,6vw,72px)}
+.hero-sky{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.35;z-index:0}
+.hero-sky .l{stroke:var(--muted);stroke-width:1.4;stroke-dasharray:3 6;fill:none}
+.hero-sky use{fill:var(--yellow);stroke:var(--muted);stroke-width:1}
+.hero-copy,.hero-art{position:relative;z-index:1;min-width:0}
+.hero-copy{display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+h1{font-size:clamp(40px,7.5vw,74px);letter-spacing:-.035em}
+.role{font-family:var(--f-mono);font-size:clamp(14px,2.2vw,17px);color:var(--accent)}
+.lead{max-width:34em;font-size:clamp(18px,2.2vw,21px);color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.btn{
+  font-family:var(--f-body);font-size:16px;font-weight:600;line-height:1;cursor:pointer;text-decoration:none;
+  display:inline-block;padding:12px 20px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface);color:var(--ink);
+}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{opacity:.9;color:var(--accent-ink)}
+.hero-art{display:grid;place-items:center}
+.frame{position:relative;width:min(290px,84%);aspect-ratio:240/280;border:2px solid var(--coral)}
+.frame .h{position:absolute;width:10px;height:10px;background:var(--coral)}
+.frame .h:nth-of-type(1){top:-6px;left:-6px}
+.frame .h:nth-of-type(2){top:-6px;right:-6px}
+.frame .h:nth-of-type(3){bottom:-6px;left:-6px}
+.frame .h:nth-of-type(4){bottom:-6px;right:-6px}
+.frame .tag{position:absolute;top:-28px;left:-2px;background:var(--coral);color:var(--on-coral);font-family:var(--f-mono);font-size:13px;padding:2px 10px}
+.avatar{display:block;width:100%;height:100%}
+.avatar .sk{filter:url(#rough)}
+
+/* about */
+.about-text{max-width:62ch;display:flex;flex-direction:column;gap:14px;font-size:19px}
+
+/* skills */
+.skill-list{margin:0;display:grid}
+.skill-list>div{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:8px 18px;align-items:baseline;padding-block:14px;border-top:1px solid var(--line)}
+.skill-list>div:first-child{border-top:0;padding-top:0}
+.skill-list>div:last-child{padding-bottom:0}
+.skill-list dt{font-family:var(--f-mono);font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.skill-list dd{margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.skill-list dd span,.tags span{font-size:15px;line-height:1.3;background:var(--accent-soft);color:var(--ink);padding:3px 12px;border-radius:999px}
+@media (max-width:560px){.skill-list>div{grid-template-columns:minmax(0,1fr)}}
+
+/* experience */
+.job{display:flex;flex-direction:column;gap:18px}
+.job-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 20px}
+.job-head h3{font-size:clamp(22px,3vw,27px)}
+.job-head .co{color:var(--muted)}
+.dates{font-family:var(--f-mono);font-size:14px;color:var(--muted)}
+.stops{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 30px}
+.stops li{position:relative;padding-left:22px;font-size:16px}
+.stops li::before{content:"";position:absolute;left:0;top:.5em;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.stops b{font-family:var(--f-mono);font-weight:500;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;display:block;color:var(--muted)}
+.job p.sum{max-width:66ch}
+.plain{margin:0;padding:0;list-style:none;display:grid;gap:8px;max-width:66ch}
+.plain li{position:relative;padding-left:20px}
+.plain li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;background:var(--accent);border-radius:2px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+
+/* projects */
+.projects{display:flex;flex-direction:column;gap:22px}
+.project{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:28px;padding:26px}
+.project .copy{display:flex;flex-direction:column;gap:14px;min-width:0}
+.project h3{font-size:clamp(24px,3.4vw,30px)}
+.kicker{font-family:var(--f-mono);font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.flow{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 30px}
+.flow li{position:relative;font-family:var(--f-mono);font-size:13px;line-height:1.25;border:1px solid var(--line);background:var(--bg);padding:5px 10px;border-radius:8px}
+.flow li:not(:last-child)::after{content:"\2192";position:absolute;right:-21px;top:50%;transform:translateY(-52%);color:var(--accent);font-size:16px}
+.proj-side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.ph{
+  margin:0;aspect-ratio:16/10;max-width:100%;
+  border:1.5px dashed var(--muted);border-radius:10px;background:var(--bg);
+  display:grid;place-content:center;justify-items:center;gap:10px;
+}
+.ph figcaption{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.ph .doodle{width:52px;height:52px}
+.plink{font-family:var(--f-mono);font-size:14px;word-break:break-word}
+
+/* blog */
+.posts{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));align-items:start}
+.post{padding:0}
+.post:hover,.post[open]{border-color:var(--accent)}
+.post summary,a.post{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:8px;padding:22px;text-decoration:none;color:inherit}
+.post summary::-webkit-details-marker{display:none}
+.post h3{font-size:21px}
+.post .sum{color:var(--muted);font-size:16px}
+.post .more{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
+.post[open] .more::after{content:" (close)"}
+.post-body{padding:16px 22px 22px;border-top:1px solid var(--line);color:var(--muted)}
+a.post{padding:22px}
+
+/* education */
+.edu{grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr))}
+.edu .card{display:flex;flex-direction:column;gap:6px}
+.edu h3{font-size:21px}
+.edu p.d{color:var(--muted);font-size:16px}
+.paper-card{grid-column:1/-1}
+
+/* hobbies */
+.fun{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:14px}
+.fun-card{display:flex;flex-direction:column;gap:6px;align-items:flex-start;padding:16px}
+.fun-card h3{font-size:18px}
+.fun-card p{font-size:15px;line-height:1.4;color:var(--muted)}
+.doodle{width:60px;height:60px;stroke:var(--ink);stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round;filter:url(#rough);overflow:visible}
+.doodle .fy{fill:var(--yellow)}.doodle .fc{fill:var(--coral)}.doodle .ft{fill:var(--teal)}.doodle .fi{fill:var(--ink)}.doodle .fp{fill:var(--surface)}
+
+/* contact */
+.contact{display:flex;flex-direction:column;gap:18px;align-items:flex-start;padding:32px}
+.contact h2{font-size:clamp(28px,4vw,38px)}
+.mail{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.mail code{font-family:var(--f-mono);font-size:clamp(15px,3.4vw,19px);background:var(--accent-soft);padding:9px 14px;border-radius:8px;user-select:all;word-break:break-all}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.foot{color:var(--muted);font-size:14px;padding-block:8px 40px;border-top:1px solid var(--line)}
+.foot-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;padding-top:22px}
+</style>
+
+
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/>
+    </filter>
+    <polygon id="star" points="0,-10 2.47,-3.4 9.51,-3.09 3.99,1.3 5.88,8.09 0,4.2 -5.88,8.09 -3.99,1.3 -9.51,-3.09 -2.47,-3.4"/>
+  </defs>
+</svg>
+
+<header id="top">
+  <div class="wrap topbar">
+    <a class="brand" href="#top">Catharin Nivitha P</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <div class="wrap hero">
+    <svg class="hero-sky" viewBox="0 0 1000 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path class="l" d="M70 90 L190 150 L300 110 L380 190 M300 110 L360 40"/>
+      <path class="l" d="M640 60 L720 120 L820 90 L900 170 L820 250 L720 120"/>
+      <path class="l" d="M520 400 L600 360 L700 400 L770 350"/>
+      <use href="#star" transform="translate(70 90)"/><use href="#star" transform="translate(190 150) scale(1.3)"/>
+      <use href="#star" transform="translate(300 110)"/><use href="#star" transform="translate(380 190) scale(.8)"/>
+      <use href="#star" transform="translate(360 40) scale(.9)"/>
+      <use href="#star" transform="translate(640 60) scale(.9)"/><use href="#star" transform="translate(720 120) scale(1.4)"/>
+      <use href="#star" transform="translate(820 90)"/><use href="#star" transform="translate(900 170) scale(.8)"/>
+      <use href="#star" transform="translate(820 250) scale(.9)"/>
+      <use href="#star" transform="translate(520 400) scale(.8)"/><use href="#star" transform="translate(600 360)"/>
+      <use href="#star" transform="translate(700 400) scale(1.1)"/><use href="#star" transform="translate(770 350) scale(.8)"/>
+    </svg>
+
+    <div class="hero-copy">
+      <p class="eyebrow">Bangalore, India</p>
+      <h1>Catharin Nivitha P</h1>
+      <p class="role">Computer Vision Engineer</p>
+      <p class="lead">I build computer vision systems that detect, segment and measure things in images and video, including in 3D.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="https://github.com/Catharin-05">GitHub</a>
+        <a class="btn" href="https://linkedin.com/in/catharin">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="frame">
+        <span class="tag">catharin</span>
+        <span class="h"></span><span class="h"></span><span class="h"></span><span class="h"></span>
+        <svg class="avatar" viewBox="0 0 240 280" role="img" aria-label="Doodled self portrait: dark hair in a bun, small star earrings and a smile">
+          <circle cx="120" cy="150" r="112" fill="var(--sticker)"/>
+          <g class="sk" stroke="var(--hair)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="120" cy="34" r="22" fill="var(--hair)"/>
+            <path d="M60 130 C50 62 88 34 120 34 C154 34 190 62 182 135 C190 190 170 215 150 220 L90 220 C70 215 52 190 60 130Z" fill="var(--hair)"/>
+            <path d="M30 282 C34 232 70 212 120 212 C170 212 206 232 210 282Z" fill="var(--teal)"/>
+            <path d="M104 190 L104 216 C112 226 128 226 136 216 L136 190Z" fill="var(--skin)"/>
+            <ellipse cx="120" cy="132" rx="55" ry="62" fill="var(--skin)"/>
+            <path d="M64 120 C68 72 98 52 124 54 C152 56 178 80 176 120 C160 98 142 90 120 88 C98 90 78 102 64 120Z" fill="var(--hair)"/>
+            <circle cx="100" cy="138" r="4.5" fill="var(--hair)"/>
+            <circle cx="140" cy="138" r="4.5" fill="var(--hair)"/>
+            <path d="M91 124 Q100 118 109 124 M131 124 Q140 118 149 124" fill="none"/>
+            <path d="M103 163 Q120 179 137 163" fill="none"/>
+            <circle cx="86" cy="154" r="8" fill="var(--coral)" opacity=".4" stroke="none"/>
+            <circle cx="154" cy="154" r="8" fill="var(--coral)" opacity=".4" stroke="none"/>
+            <use href="#star" transform="translate(64 156) scale(.9)" fill="var(--yellow)" stroke-width="2"/>
+            <use href="#star" transform="translate(176 156) scale(.9)" fill="var(--yellow)" stroke-width="2"/>
+          </g>
+          <use href="#star" transform="translate(30 60) scale(.9)" fill="var(--coral)" stroke="var(--hair)" stroke-width="1.5"/>
+          <use href="#star" transform="translate(212 90) scale(.7)" fill="var(--teal)" stroke="var(--hair)" stroke-width="1.5"/>
+          <use href="#star" transform="translate(200 40) scale(1.1)" fill="var(--yellow)" stroke="var(--hair)" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="wrap" id="about">
+  <div class="sec-head">
+    <p class="eyebrow">About</p>
+    <h2>About me</h2>
+  </div>
+  <div class="about-text">
+    <p>I'm Catharin Nivitha, a computer vision engineer based in Bangalore, India. Over the past year and a half I've worked on object detection, measuring things from photos and video, and deploying models in real products.</p>
+    <p>I studied maths, chemistry and physics, then data science.</p>
+  </div>
+</section>
+
+<section class="wrap" id="skills">
+  <div class="sec-head">
+    <p class="eyebrow">Skills</p>
+    <h2>Perception and 3D vision</h2>
+  </div>
+  <div class="card">
+    <dl class="skill-list">
+      <div><dt>Detection and tracking</dt><dd><span>YOLO</span><span>DETR</span><span>Faster R-CNN</span><span>ByteTrack</span><span>Vision Transformers</span></dd></div>
+      <div><dt>Segmentation, pose and depth</dt><dd><span>SAM</span><span>Sapiens</span><span>Pose estimation</span><span>Depth estimation</span></dd></div>
+      <div><dt>3D and cameras</dt><dd><span>Camera calibration</span><span>3D reconstruction</span><span>Open3D point clouds</span><span>BIM reconstruction</span><span>Parametric mesh (Meta MHR)</span></dd></div>
+      <div><dt>Measurement</dt><dd><span>OCR</span><span>Geometric reasoning</span><span>Dimension estimation</span><span>Body measurement</span><span>Ergonomic kitchen layout</span></dd></div>
+      <div><dt>Tools</dt><dd><span>OpenCV</span><span>PyTorch</span><span>ONNX Runtime</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="wrap" id="experience">
+  <div class="sec-head">
+    <p class="eyebrow">Experience</p>
+    <h2>Work experience</h2>
+  </div>
+  <div class="card job">
+    <div class="job-head">
+      <div>
+        <h3>Machine Learning Engineer</h3>
+        <p class="co">TheHousekraft, Bangalore</p>
+      </div>
+      <p class="dates">Dec 2024 to Aug 2026</p>
+    </div>
+    <ol class="stops">
+      <li><b>Dec 2024</b>Joined as Machine Learning Engineer Intern</li>
+      <li><b>Jun 2025</b>Promoted to Machine Learning Engineer</li>
+    </ol>
+    <p class="sum">I worked on computer vision and applied AI for interior-design products, from training models to deploying them.</p>
+    <ul class="plain">
+      <li>Trained and fine-tuned object detection models.</li>
+      <li>Built measurement pipelines that combine OCR, detection and geometry to estimate product dimensions.</li>
+      <li>Built segmentation, depth estimation and dataset pipelines.</li>
+      <li>Owned the kitchen builder logic: a 3D modular kitchen builder that constructs kitchens ergonomically from detected kitchen slabs.</li>
+      <li>Built generative AI features, including a RAG chatbot and image captioning.</li>
+      <li>Optimized pipelines with ONNX, worked with AWS, and deployed backend services such as the RAG chatbot and the kitchen builder backend.</li>
+    </ul>
+    <div class="tags"><span>YOLO</span><span>DETR</span><span>OCR</span><span>ONNX</span><span>AWS</span><span>RAG</span></div>
+  </div>
+</section>
+
+<section class="wrap" id="projects">
+  <div class="sec-head">
+    <p class="eyebrow">Projects</p>
+    <h2>Selected projects</h2>
+    
+  </div>
+  <div class="projects">
+
+    <article class="card project">
+      <div class="copy">
+        <p class="kicker">Pose &middot; Segmentation &middot; 3D mesh</p>
+        <h3>Virtual Fitting Room</h3>
+        <p>Extracts body measurements from a single video by reconstructing a 3D avatar. The pipeline estimates pose, segments the body, fits a parametric 3D mesh with Meta MHR, and shows the result in a web viewer.</p>
+        <ol class="flow" aria-label="Pipeline">
+          <li>Video</li>
+          <li>Pose estimation</li>
+          <li>Body segmentation</li>
+          <li>Measurements</li>
+          <li>3D mesh (Meta MHR)</li>
+          <li>React + Three.js viewer</li>
+        </ol>
+        <p>I used ONNX Runtime for low-latency inference and documented and fixed production failure modes along the way.</p>
+        <p class="plink"><a href="https://github.com/Catharin-05/virtual-try-on">github.com/Catharin-05/virtual-try-on</a></p>
+      </div>
+      <div class="proj-side">
+        <figure class="ph">
+          <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect x="10" y="26" width="60" height="38" rx="6" class="fp"/><circle cx="40" cy="45" r="11" class="fy"/><path d="M26 26 L31 18 H49 L54 26"/></svg>
+          <figcaption>Demo clip goes here</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="card project">
+      <div class="copy">
+        <p class="kicker">Detection &middot; Tracking &middot; Agentic GenAI</p>
+        <h3>Construction Video Intelligence</h3>
+        <p>An agent that answers natural-language questions about long industrial video. A motion gate and a coarse-to-fine search keep detection cheap, so long videos can run on ordinary hardware.</p>
+        <ol class="flow" aria-label="Pipeline">
+          <li>Video feed</li>
+          <li>Motion gate</li>
+          <li>YOLOv8</li>
+          <li>ByteTrack</li>
+          <li>LLaVA</li>
+          <li>LLM agent</li>
+        </ol>
+        <p>The agent uses tool calling and metadata caching to answer questions about what happened in the footage.</p>
+      </div>
+      <div class="proj-side">
+        <figure class="ph">
+          <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect x="10" y="26" width="60" height="38" rx="6" class="fp"/><circle cx="40" cy="45" r="11" class="fy"/><path d="M26 26 L31 18 H49 L54 26"/></svg>
+          <figcaption>Demo clip goes here</figcaption>
+        </figure>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="wrap" id="blog">
+  <div class="sec-head">
+    <p class="eyebrow">Blog</p>
+    <h2>Writing</h2>
+    <p>These posts are placeholders for now.</p>
+  </div>
+  <div class="grid posts">
+    <a class="card post" href="blog/post-1.html">
+      <span class="dates">Date</span>
+      <h3>Post title goes here</h3>
+      <span class="sum">A one-line summary of the post goes here.</span>
+      <span class="more">Read post</span>
+    </a>
+    <a class="card post" href="blog/post-1.html">
+      <span class="dates">Date</span>
+      <h3>Post title goes here</h3>
+      <span class="sum">A one-line summary of the post goes here.</span>
+      <span class="more">Read post</span>
+    </a>
+    <a class="card post" href="blog/post-1.html">
+      <span class="dates">Date</span>
+      <h3>Post title goes here</h3>
+      <span class="sum">A one-line summary of the post goes here.</span>
+      <span class="more">Read post</span>
+    </a>
+  </div>
+</section>
+
+<section class="wrap" id="education">
+  <div class="sec-head">
+    <p class="eyebrow">Education</p>
+    <h2>Education and publication</h2>
+  </div>
+  <div class="grid edu">
+    <div class="card">
+      <p class="dates">2023 to 2025</p>
+      <h3>M.Sc. Data Science</h3>
+      <p class="d">CHRIST (Deemed to be University), Bangalore. CGPA 8.6/10.</p>
+    </div>
+    <div class="card">
+      <p class="dates">2020 to 2023</p>
+      <h3>B.Sc. Mathematics, Chemistry and Physics (PCM)</h3>
+      <p class="d">CHRIST (Deemed to be University), Bangalore. CGPA 7.93/10.</p>
+    </div>
+    <div class="card paper-card">
+      <p class="dates">Publication</p>
+      <h3>Exploring AutoML in Healthcare</h3>
+      <p class="d">Nivitha C. et al. Lecture Notes in Electrical Engineering, Vol. 1598, Springer. ICMEET 2025.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="outside">
+  <div class="sec-head">
+    <p class="eyebrow">Hobbies</p>
+    <h2>Outside work</h2>
+  </div>
+  <div class="fun">
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><path class="fy" d="M50 12 A28 28 0 1 0 68 54 A22 22 0 0 1 50 12Z"/><path d="M8 68 Q22 58 36 68 T64 68"/><use href="#star" transform="translate(66 20) scale(.7)" class="fc"/></svg>
+      <h3>Painting</h3>
+      <p>I love to draw and paint memories and illusions.</p>
+    </div>
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><polyline points="10,62 24,48 40,50 54,34 70,18"/><circle cx="10" cy="62" r="3.5" class="fy"/><circle cx="24" cy="48" r="3.5" class="fy"/><circle cx="40" cy="50" r="3.5" class="fy"/><circle cx="54" cy="34" r="3.5" class="fy"/><circle cx="70" cy="18" r="3.5" class="fy"/><use href="#star" transform="translate(58 62) scale(.9)" class="fc"/></svg>
+      <h3>Stargazing</h3>
+      <p>I capture constellations.</p>
+    </div>
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect x="6" y="34" width="68" height="32" rx="4" class="fp"/><path d="M22 34 V66 M38 34 V66 M54 34 V66"/><rect x="17" y="34" width="9" height="18" class="fi"/><rect x="33" y="34" width="9" height="18" class="fi"/><rect x="49" y="34" width="9" height="18" class="fi"/><path d="M58 10 V26 M58 10 Q68 12 66 20"/><circle cx="53" cy="27" r="5" class="fc"/></svg>
+      <h3>Keyboard and singing</h3>
+      <p>I like playing the keyboard and sing.</p>
+    </div>
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><path class="fy" d="M14 40 H66 V54 Q66 68 52 68 H28 Q14 68 14 54Z"/><path d="M12 40 H68 M14 46 H8 M66 46 H72"/><path d="M28 32 Q24 26 28 20 M40 32 Q36 26 40 20 M52 32 Q48 26 52 20"/></svg>
+      <h3>Cooking</h3>
+      <p>I cook curries.</p>
+    </div>
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><path d="M26 24 L10 40 L26 56 M54 24 L70 40 L54 56 M46 20 L34 60"/><use href="#star" transform="translate(66 14) scale(.7)" class="fy"/></svg>
+      <h3>Coding and reading</h3>
+      <p>I code for fun and read research articles.</p>
+    </div>
+    <div class="card fun-card">
+      <svg class="doodle" viewBox="0 0 80 80" aria-hidden="true"><rect class="fy" x="14" y="16" width="46" height="14" rx="2" transform="rotate(4 37 23)"/><rect class="fc" x="18" y="34" width="48" height="14" rx="2" transform="rotate(-3 42 41)"/><rect class="ft" x="12" y="52" width="56" height="14" rx="2"/><path d="M22 59 H58"/></svg>
+      <h3>Books</h3>
+      <p>I love a good book.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="contact">
+  <div class="card contact">
+    <p class="eyebrow">Contact</p>
+    <h2>Get in touch</h2>
+    <p>You can reach me here.</p>
+    <div class="mail">
+      <code id="email">nivithacatharin@gmail.com</code>
+      <button class="btn primary" id="copy" type="button">Copy email</button>
+    </div>
+    <div class="links">
+      <a class="btn" href="https://linkedin.com/in/catharin">LinkedIn</a>
+      <a class="btn" href="https://github.com/Catharin-05">GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <div class="foot-in"><span>Catharin Nivitha P</span><span>Computer Vision Engineer &middot; Bangalore, India</span></div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('copy'), em=document.getElementById('email');
+  btn.addEventListener('click',function(){
+    function done(){btn.textContent='Copied';setTimeout(function(){btn.textContent='Copy email';},1800);}
+    function fallback(){
+      var r=document.createRange(); r.selectNodeContents(em);
+      var s=window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent='Selected, press copy';setTimeout(function(){btn.textContent='Copy email';},2200);
+    }
+    try{
+      navigator.clipboard.writeText(em.textContent).then(done,fallback);
+    }catch(e){fallback();}
+  });
+})();
+</script>
+
+</body>
+</html>
