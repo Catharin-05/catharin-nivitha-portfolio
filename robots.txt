@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://REPLACE-WITH-YOUR-SITE-URL/sitemap.xml
+Sitemap: https://catharin-05.github.io/catharin-nivitha-portfolio/sitemap.xml
